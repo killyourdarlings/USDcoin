@@ -2,7 +2,7 @@ ethereum.autoRefreshOnNetworkChange=false;
 ethereum.enable();
 const provider = new ethers.providers.Web3Provider(window.ethereum);
 const signer = provider.getSigner();
-const contractAddress = "0xF6d70B1FF611f5beee433a59E191086a6ED7a87C";
+const contractAddress = "0x1903Ff75B654fF9Cff62712fc90D3008cC672983";
 const contractABI=[
     "function reward(uint256 amt) public"
 ];
